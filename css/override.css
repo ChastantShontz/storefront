@@ -7,6 +7,10 @@
   margin-bottom: -5em;
 }
 
+.img {
+  width: 75% !important;
+}
+
 .footerLogo {
   margin: -5em;
 }
