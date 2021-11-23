@@ -7,6 +7,10 @@
   margin-bottom: -5em;
 }
 
+.media-text {
+  margin-right: 10px;
+}
+
 .img {
   width: 75% !important;
 }
