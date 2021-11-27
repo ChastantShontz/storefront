@@ -29,6 +29,17 @@
   text-align: center;
 }
 
+.price-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.price {
+  display: inline-block;
+  color: #777777;
+  font-weight: normal;
+}
+
 .logo-img {
   width: 75% !important;
 }
