@@ -1,3 +1,5 @@
+/*Primary Classes*/
+
 .login-cart {
   position: relative;
   z-index: 1;
@@ -46,4 +48,12 @@
 
 .footer-logo {
   margin: -5em;
+}
+
+/*Color Variables*/
+
+:root {
+  --logoRed: #ec1d25;
+  --logoOrange: #f58b00;
+  --logoGreen: #4faf41;
 }
