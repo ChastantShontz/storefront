@@ -1,3 +1,8 @@
+.login-cart {
+  position: relative;
+  z-index: 1;
+}
+
 .modal-header {
   border-bottom: none;
 }
