@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	 // Owl carousel code
 	$('#slider').nivoSlider();
-	
+
 	$("#owl-example").owlCarousel({
 	  	autoPlay : true
 	});
@@ -16,14 +16,14 @@ $(document).ready(function() {
 	});
 
 	$("html").niceScroll({
-		cursorcolor : "#90c322",
+		cursorcolor : "var(--logoGreen)",
 		cursorwidth : "10px" ,
 		zindex: 9999 ,
 		cursorborder: "none"	,
 		cursorborderradius : "0" ,
 		autohidemode: false,
 	});
-	
+
 	// fade in #back-top
 
 	$(window).scroll(function () {
