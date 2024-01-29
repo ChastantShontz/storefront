@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chastant's Ice Cream Shop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- Css -->
+	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" />
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/override.css">
+
+	<!-- jS -->
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+	<script src="https://kit.fontawesome.com/1fb5e1558e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+<!-- TOP HEADER Start
+    ================================================== -->
+
+	<section id="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<p class="contact-action"><i class="fas fa-phone-square"></i>GOT QUESTIONS? CALL: <strong>1-800-ICE-CREAM</strong></p>
+				</div>
+				<div class="col-md-3 clearfix">
+					<ul class="login-cart">
+						<li>
+							<a data-toggle="modal" data-target="#myModal" href="#">
+							<i class="fas fa-user"></i>
+								Login
+							</a>
+						</li>
+						<li>
+							<div class="cart dropdown">
+						  		<a data-toggle="dropdown" href="#"><i class="fas fa-shopping-cart"></i>Cart(1)</a>
+					  			<div class="dropdown-menu dropup">
+					  				<span class="caret"></span>
+						  			<ul class="media-list">
+								  		<li class="media">
+										    <img class="pull-left" src="images/mintCookieCrumble.png" alt="">
+										    <div class="media-body">
+										      	<h6>Mint Cookie Crumble
+								    				<span class="cart-price">$1.99</span>
+								    			</h6>
+								    		</div>
+								  		</li>
+									</ul>
+									<button class="btn btn-primary btn-sm">Checkout</button>
+							    </div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<div class="search-box">
+						<div class="input-group">
+					    	<input placeholder="Search Here" type="text" class="form-control">
+					      	<span class="input-group-btn">
+					        	<button class="btn btn-default" type="button"></button>
+					      	</span>
+					    </div><!-- /.input-group -->
+					</div><!-- /.search-box -->
+				</div>
+			</div> <!-- End Of /.row -->
+		</div>	<!-- End Of /.Container -->
+
+
+	<!-- MODAL Start
+    	================================================== -->
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+		    	<div class="modal-content">
+		    		<div class="modal-header">
+		        		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		      		</div>
+			      	<div class="modal-body clearfix">
+
+						<form action="#" method="post" id="create-account_form" class="std">
+							<fieldset>
+								<h3>Create your account</h3>
+								<div class="form_content clearfix">
+									<h4>Enter your e-mail address to create an account.</h4>
+									<p class="text">
+										<label for="email_create">E-mail address</label>
+										<span>
+											<input placeholder="E-mail address"  type="text" id="email_create" name="email_create" value="" class="account_input">
+					                    </span>
+									</p>
+									<p class="submit">
+										<button class="btn btn-primary">Create Your Account</button>
+									</p>
+								</div>
+							</fieldset>
+						</form>
+			      		<form action="" method="post" id="login_form" class="std">
+							<fieldset>
+								<h3>Already registered?</h3>
+								<div class="form_content clearfix">
+									<p class="text">
+									<label for="email">E-mail address</label>
+										<span><input placeholder="E-mail address" type="text" id="email" name="email" value="" class="account_input"></span>
+									</p>
+									<p class="text">
+									<label for="passwd">Password</label>
+										<span><input placeholder="Password" type="password" id="passwd" name="passwd" value="" class="account_input"></span>
+									</p>
+									<p class="lost_password">
+										<a href="#" class="popab-password-link">Forgot your password?</a>
+									</p>
+									<p class="submit">
+										<button class="btn btn-success">Log in</button>
+									</p>
+								</div>
+							</fieldset>
+						</form>
+			      	</div>
+			      	<div class="modal-footer">
+			        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      	</div>
+		    	</div>
+		  	</div>
+		</div>
+	</section>  <!-- End of /Section -->
+
+
+
+	<!-- LOGO Start
+    ================================================== -->
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#">
+						<img src="images/iceCreamLogo.png" alt="logo" class="logo">
+					</a>
+				</div>	<!-- End of /.col-md-12 -->
+			</div>	<!-- End of /.row -->
+		</div>	<!-- End of /.container -->
+	</header> <!-- End of /Header -->
+
+
+
+
+	<!-- MENU Start
+    ================================================== -->
+
+	<nav class="navbar navbar-default">
+		<div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div> <!-- End of /.navbar-header -->
+
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      	<ul class="nav navbar-nav nav-main">
+		        	<li class="active"><a href="#" class="link">HOME</a></li>
+					<li><a href="#" class="link-hover">SHOP</a></li>
+					<li><a href="#" class="link-hover">BLOG</a></li>
+					<li><a href="#" class="link-hover">ARTICLE</a></li>
+					<li class="dropdown">
+						<a href="#" class="link-hover">
+							PAGES
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+						   <li class="dropdown-item"><a  href="#">About</a></li>
+						    <li class="dropdown-item"><a  href="#">Menu</a></li>
+						    <li class="dropdown-item"><a  href="#">Order</a></li>
+						    <li class="dropdown-item"><a  href="#">News</a></li>
+						</ul>
+					</li> <!-- End of /.dropdown -->
+
+
+		        </ul> <!-- End of /.nav-main -->
+		    </div>	<!-- /.navbar-collapse -->
+		</div>	<!-- /.container-fluid -->
+	</nav>	<!-- End of /.nav -->
+
+
+	<!-- SLIDER Start
+    ================================================== -->
+
+
+	<section id="slider-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="slider" class="nivoSlider">
+				    	<img src="images/cones.png" alt="" class="slider-img" />
+				    	<img src="images/floats.png" alt="" class="slider-img" />
+				    	<img src="images/handPackedPints.png" alt="" class="slider-img" />
+							<img src="images/milkshakes.png" alt="" class="slider-img" />
+							<img src="images/smoothies.png" alt="" class="slider-img" />
+							<img src="images/sundaes.png" alt="" class="slider-img" />
+					</div>	<!-- End of /.nivoslider -->
+				</div>	<!-- End of /.col-md-12 -->
+			</div>	<!-- End of /.row -->
+		</div>	<!-- End of /.container -->
+	</section> <!-- End of Section -->
+
+
+
+	<!-- FEATURES Start
+    ================================================== -->
+
+	<section id="features">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="block media-block">
+						<div class="media">
+							<div class="pull-left" href="#">
+						    	<i class="fas fa-calendar-week"></i>
+						  	</div>
+						  	<div class="media-body">
+						    	<h4 class="media-heading">Weekly Promos</h4>
+						    	<p class="media-text">A new, exciting sale each week to keep things fresh.</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="block media-block">
+						<div class="media">
+							<div class="pull-left" href="#">
+								<i class=" fa fa-hands-helping"></i>
+						  	</div>
+						  	<div class="media-body">
+						    	<h4 class="media-heading">Friendly Employees</h4>
+						    	<p class="media-text">Great customer service from our cheery, hard-working staff.</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="block media-block">
+						<div class="media">
+							<div class="pull-left" href="#">
+						    	<i class=" fa fa-truck"></i>
+						  	</div>
+						  	<div class="media-body">
+						    	<h4 class="media-heading">Delivery Services</h4>
+						    	<p class="media-text">Brings the ice cream right to your doorstep for your convenience.</p>
+						  </div>	<!-- End of /.media-body -->
+						</div>	<!-- End of /.media -->
+					</div>	<!-- End of /.block -->
+				</div> <!-- End of /.col-md-4 -->
+			</div>	<!-- End of /.row -->
+		</div>	<!-- End of /.container -->
+	</section>	<!-- End of section -->
+
+
+
+	<!-- CATAGORIE Start
+    ================================================== -->
+
+	<section id="catagorie">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="block">
+						<div class="block-heading">
+							<h2>SPECIAL PRODUCTS</h2>
+						</div>
+						<div class="row">
+						  	<div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							    	<a class="catagotie-head" href="#">
+										<img src="images/iceCreamHalfGallons.png" alt="...">
+										<h3>Half Gallons</h3>
+									</a>
+							      	<div class="caption">
+							        	<p>Get all the ice cream flavors you love in a half gallon, great for parties and other get-togethers.</p>
+							        	<p>
+							        		<a href="#" class="btn btn-default btn-transparent" role="button">
+							        			<span>Browse Items</span>
+							        		</a>
+							        	</p>
+							      	</div>	<!-- End of /.caption -->
+							    </div>	<!-- End of /.thumbnail -->
+						  	</div>	<!-- End of /.col-sm-6 col-md-4 -->
+						  	<div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							    	<a class="catagotie-head" href="#">
+										<img src="images/sundaeToppings.png" alt="...">
+										<h3>Sundae Toppings</h3>
+									</a>
+							      	<div class="caption">
+							        	<p>With toppings like chocolate sauce, whipped cream, and cherries, you can build youw own sundaes at home.</p>
+							        	<p>
+							        		<a href="#" class="btn btn-default btn-transparent" role="button">
+							        			<span>Browse Items</span>
+							        		</a>
+							        	</p>
+							      	</div>	<!-- End of /.caption -->
+							    </div>	<!-- End of /.thumbnail -->
+						  	</div>	<!-- End of /.col-sm-6 col-md-4 -->
+						  	<div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							    	<a class="catagotie-head" href="#">
+										<img src="images/milkGallons.png" alt="...">
+										<h3>Milk Products</h3>
+									</a>
+							      	<div class="caption">
+								        <p>The milk that we use to make our ice cream can also be purchased by itself in a gallon or half gallon.</p>
+								        <p>
+								        	<a href="#" class="btn btn-default btn-transparent" role="button">
+								        		<span>Browse Items</span>
+								        	</a>
+								        </p>
+								    </div>	<!-- End of /.caption -->
+							    </div>	<!-- End of /.thumbnail -->
+						  	</div>	<!-- End of /.col-sm-6 col-md-4 -->
+						</div>	<!-- End of /.row -->
+					</div>	<!-- End of /.block -->
+				</div>	<!-- End of /.col-md-12 -->
+			</div>	<!-- End of /.row -->
+		</div>	<!-- End of /.container -->
+	</section>	<!-- End of Section -->
+
+
+
+
+		<!-- PRODUCTS Start
+    ================================================== -->
+
+	<section id="products">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="products-heading">
+						<h2 class="new-products">ICE CREAM FLAVORS</h2>
+						<div class="price-cont">
+							<p class="price">Single Scoop: <span class="amount">$1.99</span></p>
+							<p class="price">Double Scoop: <span class="amount">$2.49</span></p>
+							<p class="price">Triple Scoop: <span class="amount">$2.74</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/barkInTheDark.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Bark In the Dark</h4>
+						</a>
+						<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+					</div>	<!-- End of /.products -->
+				</div>	<!-- End of /.col-md-3 -->
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/blackSweetCherry.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Black Sweet Cherry</h4>
+						</a>
+						<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+					</div>	<!-- End of /.products -->
+				</div>	<!-- End of /.col-md-3 -->
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/brownieCookieSundae.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Brownie Cookie Sundae</h4>
+						</a>
+						<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+					</div>	<!-- End of /.products -->
+				</div>	<!-- End of /.col-md-3 -->
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/caramelConeCrunch.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Caramel Cone Crunch</h4>
+						</a>
+						<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+					</div>	<!-- End of /.products -->
+				</div>	<!-- End of /.col-md-3 -->
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/chocolate.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Chocolate</h4>
+						</a>
+						<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+					</div>	<!-- End of /.products -->
+				</div>	<!-- End of /.col-md-3 -->
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/deathByChocolate.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Death By Chocolate</h4>
+						</a>
+						<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+					</div>	<!-- End of /.products -->
+				</div> <!-- End Of Col-md-3 -->
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/fireworks.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Fireworks</h4>
+						</a>
+						<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+					</div>	<!-- End of /.products -->
+				</div> <!-- End Of /.Col-md-3 -->
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/mintCookieCrumble.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Mint Cookie Crumble</h4>
+						</a>
+						<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+					</div>	<!-- End of /.products -->
+				</div> <!-- End Of /.Col-md-3 -->
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/mousseTrail.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Mousse Trail</h4>
+						</a>
+						<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+					</div>	<!-- End of /.products -->
+				</div> <!-- End Of /.Col-md-3 -->
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/peanutButterPandemonium.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Peanut Butter Pandemonium</h4>
+						</a>
+						<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+					</div>	<!-- End of /.products -->
+				</div> <!-- End Of /.Col-md-3 -->
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/strawberry.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Strawberry</h4>
+						</a>
+						<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+					</div>	<!-- End of /.products -->
+				</div> <!-- End Of /.Col-md-3 -->
+				<div class="col-md-3">
+					<div class="products">
+						<a href="#">
+							<img src="images/vanilla.png" alt="">
+						</a>
+						<a href="#">
+							<h4>Vanilla</h4>
+						</a>
+						<div >
+							<a class="view-link shutter" href="#">
+							<i class="fas fa-plus-circle"></i>Description</a>
+						</div>
+					</div>	<!-- End of /.products -->
+				</div> <!-- End Of /.Col-md-3 -->
+			</div>	<!-- End of /.row -->
+		</div>	<!-- End of /.container -->
+	</section>	<!-- End of Section -->
+
+
+
+
+		<!-- CALL TO ACTION Start
+    ================================================== -->
+
+	<section id="call-to-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="block">
+						<div class="block-heading">
+							<h2>Our Partners</h2>
+						</div>
+					</div>	<!-- End of /.block -->
+					<div id="owl-example" class="owl-carousel">
+						<div> <img src="images/jakesOnTheWater.png" alt="" class="logo-img"></div>
+						<div> <img src="images/leesHawaiinGrill.png" alt="" class="logo-img"></div>
+						<div> <img src="images/littleItaly.png" alt="" class="logo-img"></div>
+						<div> <img src="images/parkBrosCoffee.png" alt="" class="logo-img"></div>
+						<div> <img src="images/stewartsShops.png" alt="" class="logo-img"></div>
+					</div>	<!-- End of /.Owl-Slider -->
+				</div>	<!-- End of /.col-md-12 -->
+			</div> <!-- End Of /.Row -->
+		</div> <!-- End Of /.Container -->
+	</section>	<!-- End of Section -->
+
+
+
+	<!-- FOOTER Start
+    ================================================== -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="block clearfix">
+						<a href="#">
+							<img src="images/iceCreamLogo.png" alt="" class="footer-logo">
+						</a>
+						<h4 class="connect-heading">CONNECT WITH US</h4>
+						<ul class="social-icon">
+							<li>
+								<a class="facebook-icon" href="#">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a class="plus-icon" href="#">
+									<i class="fa fa-google-plus"></i>
+								</a>
+							</li>
+							<li>
+								<a class="twitter-icon" href="#">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a class="pinterest-icon" href="#">
+									<i class="fa fa-pinterest"></i>
+								</a>
+							</li>
+							<li>
+								<a class="linkedin-icon" href="#">
+									<i class="fa fa-linkedin"></i>
+								</a>
+							</li>
+						</ul>	<!-- End Of /.social-icon -->
+					</div>	<!-- End Of /.block -->
+				</div> <!-- End Of /.Col-md-4 -->
+				<div class="col-md-4">
+					<div class="block">
+						<h4>GET IN TOUCH</h4>
+						<p ><i class="fas  fa-map-marker"></i> <span>Chastant's Ice Cream Shop,</span> 123 Fake St., Potsdam, New York, U.S.A.</p>
+						<p> <i class="fas  fa-phone"></i> <span>Phone:</span> 1-800-ICE-CREAM</p>
+
+						<p class="mail"><i class="fas  fa-envelope"></i>Email: <span>info@chastanticecream.org</span></p>
+					</div>	<!-- End Of /.block -->
+				</div> <!-- End Of Col-md-3 -->
+				<div class="col-md-4">
+					<div class="block">
+						<h4>UPCOMING ITEMS</h4>
+						<div class="media">
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/blackRaspberry.png" alt="...">
+						  	</a>
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/cherryVanilla.png" alt="...">
+						  	</a>
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/chocolateChipCookieDough.png" alt="...">
+						  	</a>
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/chocolateMarshmallow.png" alt="...">
+						  	</a>
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/chocolateSwirl.png" alt="...">
+						  	</a>
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/cookiesNCream.png" alt="...">
+						  	</a>
+						</div>	<!-- End Of /.media -->
+					</div>	<!-- End Of /.block -->
+				</div> <!-- End Of Col-md-3 -->
+			</div> <!-- End Of /.row -->
+		</div> <!-- End Of /.Container -->
+
+
+
+	<!-- FOOTER-BOTTOM Start
+    ================================================== -->
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="cash-out pull-left">
+							<li>
+								<a href="#">
+									<img src="images/American-Express.png" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/PayPal.png" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/Maestro.png" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/Visa.png" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/Visa-Electron.png" alt="">
+								</a>
+							</li>
+						</ul>
+						<p class="copyright-text pull-right">&copy;2021 Chastant Shontz, All Rights Reserved</p>
+					</div>	<!-- End Of /.col-md-12 -->
+				</div>	<!-- End Of /.row -->
+			</div>	<!-- End Of /.container -->
+		</div>	<!-- End Of /.footer-bottom -->
+	</footer> <!-- End Of Footer -->
+
+	<a id="back-top" href="#"></a>
+</body>
+</html>

@@ -1,0 +1,147 @@
+/*Primary Classes*/
+
+#top {
+  background-color: var(--logoGreen);
+}
+
+.login-cart {
+  position: relative;
+  z-index: 1;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.btn-success {
+  background-color: var(--logoGreen);
+  border-color: var(--logoGreen);
+}
+
+.cart-price {
+  color: var(--logoGreen) !important;
+}
+
+.logo {
+  margin-top: -5em;
+  margin-bottom: -5em;
+}
+
+.active {
+  border-color: var(--logoGreen) !important;
+}
+
+.link {
+  color: var(--logoRed) !important;
+}
+
+.link-hover:hover {
+  color: var(--logoRed) !important;
+}
+
+.nav-main > li::before, .nav-main > li::after {
+  background-color: var(--logoGreen);
+}
+
+.nav-main .dropdown-menu li a:hover {
+	background-color: var(--logoGreen);
+}
+
+#slider {
+  height: 40em;
+}
+
+.slider-img {
+}
+
+.media-block {
+  background-color: var(--logoGreen) !important;
+}
+
+.media-text {
+  margin-right: 10px;
+}
+
+.block-heading h2 {
+  position: relative;
+  bottom: .25em;
+	color: var(--logoRed);
+  padding: .5em;
+	border-color: var(--logoGreen);
+}
+
+#catagorie .block .thumbnail:hover h3 {
+	color: var(--logoGreen);
+}
+
+.btn-transparent:hover {
+	border-color: var(--logoGreen);
+}
+
+.btn-transparent:hover:before {
+	background-color: var(--logoGreen);
+}
+
+.new-products {
+  border-color: var(--logoGreen) !important;
+  margin-left: 40% !important;
+  margin-right: 40% !important;
+  color: var(--logoRed);
+  text-align: center;
+}
+
+.price-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.price {
+  display: inline-block;
+  color: #777777;
+  font-weight: normal;
+}
+
+.amount {
+  color: var(--logoGreen);
+  font-weight: bold;
+}
+
+.products:hover a img{
+	border-color: var(--logoGreen);
+}
+
+.products a h4:hover {
+	color: var(--logoGreen);
+}
+
+.products:hover h4 {
+  color: var(--logoGreen);
+}
+
+.view-link:hover {
+	border-color: var(--logoGreen);
+}
+
+.shutter:hover:before {
+	background-color: var(--logoGreen);
+}
+
+.logo-img {
+  width: 75% !important;
+}
+
+.footer-logo {
+  margin: -5em;
+}
+
+.facebook-icon, .plus-icon, .twitter-icon, .pinterest-icon, .linkedin-icon {
+  background-color: var(--logoGreen) !important;
+}
+
+/*Color Variables*/
+
+:root {
+  --logoRed: #ec1d25;
+  --logoOrange: #f58b00;
+  --logoGreen: #4faf41;
+}
